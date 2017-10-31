@@ -88,3 +88,11 @@ header .logo img {
 =======
 >>>>>>> e66992de25461583c8844ec99f6f534c7703d193
 }
+
+.carousel-inner .item active{
+  color: #000000;
+}
+
+.carousel-inner .item {
+  color: #000000;
+}
