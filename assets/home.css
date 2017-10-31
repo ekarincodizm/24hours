@@ -15,11 +15,21 @@ header .logo img {
   padding: 10px;
 }
 
-.footer .column {
+.footer img{
+  border-top: 1rem;
   margin-bottom: 0 !important;
-  margin-top: 1rem;
+  height: 130px;
+  width: auto;
+  padding: 10px;
+}
+
+.demo {
+  margin: 0 auto;
+  padding-top: 64px;
+}
+
+.footer {
   background-color: #2d2d2d;
-  font-size: 24px;
 }
 
 .highlight {
