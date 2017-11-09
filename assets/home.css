@@ -18,7 +18,7 @@ header .logo img {
 .footer img{
   border-top: 1rem;
   margin-bottom: 0 !important;
-  height: 130px;
+  height: auto;
   width: auto;
   padding: 10px;
 }
