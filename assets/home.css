@@ -110,6 +110,14 @@ header .logo img {
   color: #000000;
 }
 
+.carousel-inner .item active img{
+  width: 100%;
+}
+
 .carousel-inner .item {
   color: #000000;
+}
+
+.carousel-inner .item img{
+  width: 100%;
 }
