@@ -7,10 +7,9 @@
     <title>24hrs</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.3/css/bulma.min.css">
     <link rel="stylesheet" href="/assets/home.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="/home/best.css">
+    <link rel="stylesheet" href="/login/navbar.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
@@ -19,14 +18,25 @@
           <div class="logo has-text-centered is-marginless is-paddingless">
             <img src="/assets/images/logo.png" alt="24hrs. for you">
           </div>
-        <nav class="navbar-tabs">
-            <a href="/index.html" class="is-black navbar-item"><strong>HOME</strong></a>
-            <a href="#" class="is-black navbar-item"><strong>MY FAVORITE</strong></a>
-            <a href="#" class="is-black navbar-item"><strong>PROMOTION</strong></a>
-            <a href="/contactus/contactus.html" class="is-black navbar-item"><strong>CONTACT US</strong></a>
-            <a href="/login/login.html" class="is-black navbar-item"><strong>LOGIN</strong></a>
-        </nav>
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <div class="topnav" id="myTopnav">
+            <a href="/index.html">Home</a>
+            <a href="#myfavorite">My favorite</a>
+            <a href="/promotion/promotion.html">Promotion</a>
+            <a href="/contactus/contactus.html">Contact us</a>
+            <a href="/login/login.html">Login</a>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                x.className += " responsive";
+                } else {
+                x.className = "topnav";
+                }
+            }
+        </script>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -67,9 +77,6 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
-    </header>
-
-    <main>
        <section class="section we-present">
             <div class="container"> <!--กำหนดขนาcontent-->
                 <div class="columns">
@@ -79,9 +86,11 @@
                 </div>
             </div>
         </section>
+    </header>
+    <main>
             <div class="container">    
                 <div class="columns is-multiline">
-                    <a href="#" class="column is-one-third"> <!--คือ 1น 3 =4นั่นแหละ แบ่งcolumn-->
+                    <a href="/content/ease.html" class="column is-one-third"> <!--คือ 1น 3 =4นั่นแหละ แบ่งcolumn-->
                         <div class="card">
                             <div class="card-image">
                                 <figure class="image is-3by2">
@@ -123,7 +132,7 @@
                             </div>
                         </div>
                     </a> 
-                    <a href="#" class="column is-one-third"> <!--คือ 1น 3 =4นั่นแหละ แบ่งcolumn-->
+                    <a href="/content/thinktank.html" class="column is-one-third"> <!--คือ 1น 3 =4นั่นแหละ แบ่งcolumn-->
                         <div class="card">
                             <div class="card-image">
                                 <figure class="image is-3by2">
@@ -144,7 +153,7 @@
                             </div>
                         </div>
                     </a> 
-                    <a href="#" class="column is-one-third"> <!--คือ 1น 3 =4นั่นแหละ แบ่งcolumn-->
+                    <a href="/content/storyline.html" class="column is-one-third"> <!--คือ 1น 3 =4นั่นแหละ แบ่งcolumn-->
                         <div class="card">
                             <div class="card-image">
                                 <figure class="image is-3by2">
@@ -165,7 +174,7 @@
                             </div>
                         </div>
                     </a> 
-                    <a href="#" class="column is-one-third"> <!--คือ 1น 3 =4นั่นแหละ แบ่งcolumn-->
+                    <a href="/content/maison.html" class="column is-one-third"> <!--คือ 1น 3 =4นั่นแหละ แบ่งcolumn-->
                         <div class="card">
                             <div class="card-image">
                                 <figure class="image is-3by2">
@@ -186,7 +195,7 @@
                             </div>
                         </div>
                     </a> 
-                    <a href="#" class="column is-one-third"> <!--คือ 1น 3 =4นั่นแหละ แบ่งcolumn-->
+                    <a href="/content/glur.html" class="column is-one-third"> <!--คือ 1น 3 =4นั่นแหละ แบ่งcolumn-->
                         <div class="card">
                             <div class="card-image">
                                 <figure class="image is-3by2">
