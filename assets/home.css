@@ -23,7 +23,7 @@ header .logo img {
   margin-bottom: 0 !important;
 }
 
-.rating > span:hover:before {
+/*.rating > span:hover:before {
    content: "\2605";
    position: absolute;
 }
@@ -51,7 +51,7 @@ header .logo img {
    content: "\2605";
    position: absolute;
    color: #f7c21c;
-}
+}*/
 
 .footer {
   background-color: #2d2d2d;
@@ -146,3 +146,4 @@ header .logo img {
 .carousel-inner .item img{
   width: 100%;
 }
+
