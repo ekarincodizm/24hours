@@ -1,0 +1,19 @@
+{
+  "name": "24hours",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git+https://github.com/yurayaraya/24hours.git",
+  "author": "yurayaraya <32543157+yurayaraya@users.noreply.github.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yurayaraya/24hours/issues"
+  },
+  "homepage": "https://github.com/yurayaraya/24hours#readme",
+  "dependencies": {
+    "pdfkit": "^0.8.3"
+  }
+}
