@@ -15,12 +15,58 @@ header .logo img {
   height: auto;
   width: auto;
   padding: 10px;
+  
 }
 
 .demo {
   margin: 0 auto;
   padding-top: 64px;
   margin-bottom: 0 !important;
+}
+
+.np a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    align-items: center;
+}
+
+.np a:hover {
+    background-color: #f7c21c;
+    color: black;
+}
+
+.previous {
+    background-color: #2d2d2d;
+    color: white;
+}
+
+.next {
+    background-color: #2d2d2d;
+    color:white;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #f7c21c;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#myBtn:hover {
+  background-color: #555;
 }
 
 /*.rating > span:hover:before {

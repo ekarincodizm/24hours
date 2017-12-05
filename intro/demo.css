@@ -486,3 +486,11 @@ main {
 		position: relative;
 	}
 }
+
+.content__inner .explore {
+	background-color: #f7c21c;
+}
+
+.content__inner .explore:hover {
+	background-color: #ffffff;
+}

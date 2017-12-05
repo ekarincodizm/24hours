@@ -18,6 +18,7 @@
           <div class="logo has-text-centered is-marginless is-paddingless">
             <img src="/assets/images/logo.png" alt="24hrs. for you">
           </div>
+        <center>
         <div class="topnav" id="myTopnav">
             <a href="/home.html">Home</a>
             <a href="#myfavorite">My favorite</a>
@@ -26,6 +27,7 @@
             <a href="/login/login.html">Login</a>
             <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
         </div>
+        </center>
         <script>
             function myFunction() {
                 var x = document.getElementById("myTopnav");
@@ -217,15 +219,38 @@
                         </div>
                     </a>
                 </div>
+                <div class="np">
+                    <center><a href="#" class="previous round">&#8249;</a>
+                    <a href="#" class="next round">&#8250;</a></center>
+                </div>
             </div>
     </main>
-    <a href="#" class="cd-top">Top</a>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+        <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {scrollFunction()};
+
+            function scrollFunction() {
+                if (document.body.scrollTop > 120 || document.documentElement.scrollTop > 20) {
+                document.getElementById("myBtn").style.display = "block";
+                } else {
+            document.getElementById("myBtn").style.display = "none";
+                }
+            }
+
+        // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
     
     <div class="demo">
         <section class="footer has-text-centered is-marginless is-paddingless">
             <img src="/assets/images/footer2.png"> 
         </section>
-    </div>
+    </div >
 </body>
 </html>
 
